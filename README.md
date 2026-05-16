@@ -1,4 +1,4 @@
-# Hey there! <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MDI3NjExc21vNnI3ZjZyaGt3N3V5cWlvYzRnMXJjbmZnbmFzZXVxaXp0enMxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LPFNd1AJBoYcVUExmE/giphy.gif" width="30" height="30" />
+# Hey there! <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MDI3NjExc21vNnI3ZjZyaGt3N3V5cWlvYzRnMXJjbmZnbmFzZXVxaXp0enMxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LPFNd1AJBoYcVUExmE/giphy.gif" width="130" height="130" />
 
 <div align="center">
 ### ⚡ STATUS: ONLINE | BUILD MODE: ACTIVE | REALITY LINK: STABLE
@@ -66,14 +66,6 @@ Currently working with:
 
 ---
 
-# 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juzzuo&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juzzuo&layout=compact&theme=radical&hide_border=true" />
-</p>
-
----
 
 # 🚧 Currently Working On
 
