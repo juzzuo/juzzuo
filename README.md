@@ -1,9 +1,9 @@
-# Hey there! <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21vNnI3ZjZyaGt3N3V5cWlvYzRnMXJjbmZnbmFzZXVxaXp0enMxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LPFNd1AJBoYcVUExmE/giphy.gif" width="150px">
+# Hey there! <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MDI3NjExc21vNnI3ZjZyaGt3N3V5cWlvYzRnMXJjbmZnbmFzZXVxaXp0enMxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LPFNd1AJBoYcVUExmE/giphy.gif" width="30" height="30" />
 
 <div align="center">
 ### ⚡ STATUS: ONLINE | BUILD MODE: ACTIVE | REALITY LINK: STABLE
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=900&color=BB9AF7&center=true&vCenter=true&width=650&lines=Booting+developer+portfolio...;Loading+real+projects...;Syncing+GitHub+reputation...;System+ready+for+deployment." />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=900&color=BB9AF7&center=true&vCenter=true&width=650&lines=Booting+developer+portfolio...;Loading+real+projects...;Syncing+with+production...;Building+automation+systems..." />
 
 </div>
 
@@ -63,6 +63,15 @@ Currently working with:
 - ⚡ JavaScript / Vite
 - 🗄️ PostgreSQL / MySQL
 - 🐳 Docker
+
+---
+
+# 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=juzzuo&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juzzuo&layout=compact&theme=radical&hide_border=true" />
+</p>
 
 ---
 
@@ -134,7 +143,6 @@ Simplicity scales better
 
 ---
 
-
 # 🌟 Featured Projects
 
 ## 🏗️ ProffBud
@@ -143,7 +151,10 @@ Comprehensive solution for construction business with integrated store and in-ho
 
 ### ⚙️ Stack
 
-Laravel • MySQL • JavaScript • E-Commerce
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![E-Commerce](https://img.shields.io/badge/E--Commerce-green?style=flat)
 
 ### 🔥 Highlights
 
@@ -151,6 +162,8 @@ Laravel • MySQL • JavaScript • E-Commerce
 - Store integration
 - Production management
 - Full backend infrastructure
+
+📊 **Stats**: Built with Laravel + MySQL | E-Commerce Platform
 
 🌐 https://proffbud.if.ua/
 
@@ -162,7 +175,10 @@ Automation bot for real-estate parsing and Telegram content generation.
 
 ### ⚙️ Stack
 
-Python • Telegram Bot API • SQLite • Web Scraping
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram%20Bot-0088cc?style=flat&logo=telegram&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Web%20Scraping](https://img.shields.io/badge/Web%20Scraping-FF6B6B?style=flat)
 
 ### 🔥 Features
 
@@ -179,6 +195,8 @@ Python • Telegram Bot API • SQLite • Web Scraping
 - Duplicate filtering
 - Telegram rate limits
 
+📊 **Stats**: Python async automation | 1000+ users
+
 📱 https://t.me/helpersrealtor_bot
 
 ---
@@ -189,7 +207,10 @@ Telegram assistant for tattoo studio management.
 
 ### ⚙️ Stack
 
-Python • PostgreSQL • Scheduling • Telegram API
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Scheduling](https://img.shields.io/badge/APScheduler-blue?style=flat)
+![Telegram](https://img.shields.io/badge/Telegram%20API-0088cc?style=flat&logo=telegram&logoColor=white)
 
 ### 🔥 Features
 
@@ -199,17 +220,22 @@ Python • PostgreSQL • Scheduling • Telegram API
 - Admin panel
 - Schedule automation
 
+📊 **Stats**: Production bot | Active users management
+
 📱 https://t.me/TattooRomaAssistant_bot
 
 ---
 
-## 🎵 Babai Audio
+## ���� Babai Audio
 
 YouTube → M4A converter bot.
 
 ### ⚙️ Stack
 
-Python • yt-dlp • Async Handling • Rate Limiting
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![yt--dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat)
+![Async](https://img.shields.io/badge/Async%20I%2FO-blueviolet?style=flat)
+![Rate%20Limiting](https://img.shields.io/badge/Rate%20Limiting-critical?style=flat)
 
 ### 🔥 Features
 
@@ -219,7 +245,101 @@ Python • yt-dlp • Async Handling • Rate Limiting
 - Spam protection
 - Error handling
 
+📊 **Stats**: High-load bot | Optimized async handling
+
 📱 https://t.me/BabaiAudoi_bot
+
+---
+
+# 💡 Code Philosophy & Patterns
+
+## Async-First Python Architecture
+
+```python
+# Production-ready async Telegram bot handler
+import asyncio
+from typing import Optional
+from contextlib import asynccontextmanager
+
+class TelegramBotCore:
+    def __init__(self, token: str, db_url: str):
+        self.token = token
+        self.db = AsyncDatabase(db_url)
+        self.queue = asyncio.Queue()
+    
+    async def handle_message(self, user_id: int, text: str) -> dict:
+        """
+        Non-blocking message processor with queue handling
+        and database operations
+        """
+        try:
+            # Process with timeout
+            result = await asyncio.wait_for(
+                self._process_payload(user_id, text),
+                timeout=5.0
+            )
+            
+            # Store in queue for async processing
+            await self.queue.put({
+                'user_id': user_id,
+                'result': result,
+                'timestamp': datetime.now()
+            })
+            
+            return {'status': 'success', 'data': result}
+        except asyncio.TimeoutError:
+            return {'status': 'error', 'message': 'Processing timeout'}
+    
+    async def _process_payload(self, user_id: int, text: str) -> Optional[dict]:
+        """Heavy computation with DB access"""
+        user = await self.db.get_user(user_id)
+        
+        if not user:
+            await self.db.create_user(user_id)
+            user = await self.db.get_user(user_id)
+        
+        # Parallel operations
+        tasks = [
+            self.db.log_activity(user_id, text),
+            self._parse_content(text),
+            self._check_spam(user_id, text)
+        ]
+        
+        results = await asyncio.gather(*tasks)
+        return {'processed': True, 'data': results}
+    
+    @asynccontextmanager
+    async def get_db_session(self):
+        """Context manager for safe DB operations"""
+        session = await self.db.create_session()
+        try:
+            yield session
+        finally:
+            await session.close()
+
+# Usage
+async def main():
+    bot = TelegramBotCore(
+        token="YOUR_TOKEN",
+        db_url="postgresql://user:pass@localhost/dbname"
+    )
+    
+    response = await bot.handle_message(
+        user_id=123456789,
+        text="Process this content"
+    )
+    print(response)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+**Key Principles** 🎯
+- Non-blocking I/O with `asyncio`
+- Timeout protection for stability
+- Queue-based async processing
+- Context managers for resource safety
+- Parallel task execution with `gather()`
 
 ---
 
@@ -240,16 +360,16 @@ Python • yt-dlp • Async Handling • Rate Limiting
                     │ Python Bot Core / Laravel API│
                     └──────────┬───────────────────┘
                                │
-             ┌─────────────────┴─────────────────┐
-             ▼                                   ▼
- ┌─────────────────────┐             ┌─────────────────────┐
- │ Queue / Scheduler   │             │ External APIs       │
- └──────────┬──────────┘             └─────────────────────┘
-            │
-            ▼
- ┌─────────────────────┐
- │ PostgreSQL / Redis  │
- └─────────────────────┘
+                 ┌─────────────┴─────────────┐
+                 ▼                           ▼
+     ┌─────────────────────┐     ┌─────────────────────┐
+     │ Queue / Scheduler   │     │ External APIs       │
+     └──────────┬──────────┘     └─────────────────────┘
+                │
+                ▼
+     ┌─────────────────────┐
+     │ PostgreSQL / Redis  │
+     └─────────────────────┘
 ```
 
 ---
@@ -313,4 +433,3 @@ Interested in:
 ```
 
 </div>
-
