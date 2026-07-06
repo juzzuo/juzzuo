@@ -25,7 +25,7 @@ Automation Systems
 Backend Infrastructure
 
 $ workstation
-Fedora Linux + Docker + Python + Laravel
+Docker + Python + Laravel
 
 $ status
 Building systems that survive production
